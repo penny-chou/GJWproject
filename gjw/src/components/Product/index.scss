@@ -1,0 +1,160 @@
+#product{
+	position: relative;
+	
+	a{
+		color: #333;
+	}
+	header{
+			margin-bottom: 0.62rem;
+			height: 1.44rem;
+			border-bottom: 1px solid #eee;
+			background-color: #fff;
+			i{
+				display: inline-block;
+				width: 1.44rem;
+				height: 1.44rem;
+				line-height: 1.44rem;
+				font-size: 0.62rem;
+				text-align: center;
+			}
+			.wineName{
+				display:inline-block;
+				text-align: center;
+				margin-left:3.56rem;
+				transform:translateX(-50%);
+			}
+		}
+
+	#nav{
+		
+		.am-tabs-default-bar-tab-active{
+			a{
+				color: #f44;
+			}
+		}
+		.am-tabs-default-bar-underline {
+		    position: absolute;
+		    border: 1px #f44 solid;
+		    -webkit-transform: translate3d(0, 0, 0);
+		    transform: translate3d(0, 0, 0);
+		}
+	}
+	.needFix{
+		width: 100%;
+		position: fixed;
+		top:0;
+		background: white;
+		
+		ul{
+			display: flex;
+			li{
+				flex:1;
+				line-height: 1.44rem;
+				text-align: center;
+				display: inline-block;
+				a{
+					display: inline-block;
+					color: #333;
+				}
+			}
+			.activeDetails{
+				display: inline-block;
+				width:100%;
+				height: 100%;
+				color:#f44;
+				border-bottom: 2px solid #f44;
+			}
+		}
+	}
+	.nofix{
+		height: 1.44rem;
+		background: white;
+		margin-bottom: 0.72rem;
+		ul{
+			display: flex;
+			li{
+				flex:1;
+				line-height: 1.44rem;
+				text-align: center;
+				display: inline-block;
+				a{
+					display: inline-block;
+					color: #333;
+				}
+			}
+			.activeDetails{
+				display: inline-block;
+				width:100%;
+				height: 100%;
+				color:#f44;
+				border-bottom: 2px solid #f44;
+			}
+		}
+	}
+	.container{
+		padding-top: 50px;
+	}
+	footer{
+		height: 1.56rem;
+		background-color: white;
+		width:100%;
+		position: fixed;
+		bottom: 0;
+		ul{
+			display: flex;
+			height: 1.56rem;
+			li:nth-of-type(1),li:nth-of-type(2){
+				width:1.5rem;
+				font-size: 14px;
+				// line-height: 1.56rem;
+				text-align: center;
+				a{
+					display: flex;
+					flex-direction:column;
+					color: #333;
+					i{
+						display: inline-block;
+						margin-top: 3px;
+						width: 100%;
+						height: 0.9rem;
+						font-size: 0.8rem;
+					}
+					p{
+						display: block;
+						font-size: 14px;
+					}
+				}
+
+			}
+			li:nth-of-type(1){
+				border-right:1px solid #ececec;
+			}
+			li:nth-of-type(3),li:nth-of-type(4){
+				width: 3.5rem;
+				font-size: 16px;
+				line-height: 1.56rem;
+				text-align: center;
+				a{
+					color: white;
+				}
+			}
+			li:nth-of-type(3){
+				background-color: #f85;
+			}
+			li:nth-of-type(4){
+				background-color: #f44;
+			}
+			
+		}
+		#tab-bar.demo {
+		  display: flex;
+		  flex-direction: column;
+		}
+		#tab-bar .demoName {
+		  height: 40px;
+		}
+		#tab-bar .demo-preview-item .am-tab-bar {
+		  background-color: white;
+		}
+	}
+}

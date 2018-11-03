@@ -1,10 +1,12 @@
 import React,{Component} from 'react';
 import './index.scss';
+import Middle from './middle.js';
+import Footer from '../footer.js';
 class Home extends Component{
 	render(){
 		return <div id="home">
-			Home
-			{/*==========自己的组件，自己创建在home文件夹中，再引入这里=================*/}
+				<Middle/>
+				<Footer/>
 		</div>
 	}
 }

@@ -1,11 +1,12 @@
-var titleReducer = (prevState=[],action={})=>{
+var picReducer = (prevState=[],action={})=>{
+	
 	var type = action.type;
 	switch(type){
-		case "changetitle":
+		case "picloop":
 			return action.payload
 		default :
 			return prevState
 	}
 	return prevState;
 }
-export default titleReducer;
+export default picReducer;

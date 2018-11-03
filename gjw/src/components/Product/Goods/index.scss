@@ -1,0 +1,183 @@
+#goods{
+	background-color: white;
+	margin-top: 1.87rem;
+	width: 100%;
+	height:100%;
+	.swiper{
+		width: 100%;
+		height: 10rem;
+	
+		.am-wingblank{
+			height: 10rem;
+			padding:0;
+			margin:0;
+				img{
+					width: 10rem;
+					height: 100%;
+				}
+		}
+	}
+	ul{
+		background-color: white;
+		li{
+			margin:10px 15px;
+			color: #333;
+			font-size: 14px;
+		}
+		.am-list-line{
+			padding-right: 0;
+			margin-right: 20px;
+		}
+		.wineName{
+			height: 1.84rem;
+			line-height: 1.84rem;
+			border-bottom: 1px solid #e5e5e5;
+		}
+		.price{
+			height:0.75rem;
+			line-height: 100%;
+			color: #fb223e;
+			font-size: 14px;
+			font-weight: bold;
+			span{
+				border:1px solid #ccc;
+				padding:3px 0;
+				color: #333;
+				border-radius: 5px;
+				font-weight: 100;
+				font-size: 12px;
+				float: right;
+			}
+		}
+		.proNum{
+			border-bottom: 0;
+		}
+		.info{
+			height: 2.375rem;
+			border-bottom: 1px solid #e5e5e5;
+			span{
+				float:right;
+				font-size: 20px;
+				color: #ccc;
+			}
+			p{
+				color:rgb(251, 34, 62);
+				margin:14px 0;
+			}
+		}
+		.safeinfo{
+			height: 2.375rem;
+			p{
+				margin:14px 0;
+				color:#999;
+			}
+		}
+		.safe{
+			margin:0;
+			ul{
+				height: 1.09rem;
+				line-height: 1.09rem;
+				background-color: #f8f8f8;
+				li{
+					margin:0 5px;
+					display: inline-block;
+					i{
+						color:#f44;
+						font-size: 12px;
+						margin:0 3px;
+					}
+				}
+			}
+		}
+		.evaInfo{
+			margin:1.09rem 0 0 0;
+			padding:10px 15px;
+			height: 0.75rem;
+			border-bottom: 1px solid #ccc;
+			span:nth-of-type(2){
+				float: right;
+				span{
+					color: #f44;
+					span{
+						color:#ccc;
+					}
+				}
+				
+			}
+		}
+		.evaInfoList{
+			margin:0;
+			.tab1{
+				width: 100%;
+				height: 100%;
+				li{
+					display: flex;
+					margin:0;
+					border-bottom: 1px solid #ccc;
+					padding: 10px;
+					.touxiang{
+						display: inline-block;
+						width:1.1rem;
+						margin-right: 10px;
+						margin-top: 10px;
+						img{
+							width:1.1rem;
+						}
+					}
+					.right{
+						display: inline-block; 
+						font-size: 14px;
+						color: #666;
+						p:nth-of-type(1){
+							margin-top:10px;
+							span{
+								margin-left: 20px;
+								background-color: #FF7F00;
+								border-radius: 5px;
+								font-size: 12px;
+								color: white;
+								padding:2px 3px;
+							}
+						}
+						p:nth-of-type(2){
+							margin:15px 0;
+							// display: flex;
+							// justify-content:space-between;
+							// position: relative;
+							img{
+								width:15px;
+								height: 15px;
+								display: inline-block;
+							}
+							span{
+								display: inline-block;
+								margin-left:1.25rem;
+								// position: absolute;
+								// left: 0;
+							}
+						}
+						p:nth-of-type(3){
+
+						}
+					}
+				}
+				li:last-of-type{
+					border-bottom: 0;
+				}
+			}
+		}
+		.lastli{
+			height: 1.44rem;
+			border:1px solid #eee;
+			line-height: 1.44rem;
+			text-align: center;
+			button{
+				border:0;
+				background-color: white;
+				font-size: 16px;
+				color: #333;
+
+			}
+		}
+	}
+}

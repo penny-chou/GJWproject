@@ -1,0 +1,56 @@
+#sales{
+	width:100%;
+	height: 100%;
+	ul{
+		padding:0 15px;
+		display: flex;
+		flex-wrap:wrap;
+		justify-content:space-between;
+		li{
+			width:4.25rem;
+			height: 9rem;
+			// border: 1px solid #ccc;
+			font-size:12px;
+			color: #444;
+			img{
+				width:100%;
+			}
+			.over{
+				font-size: 14px;
+				// height: 1.12rem;
+				overflow: hidden;
+				text-overflow:ellipsis;
+				// white-space:wrap;
+				display:-webkit-box;
+				
+				-webkit-line-clamp:2;
+			}
+			.tag{
+				width: 1.625rem;
+				height: 0.50rem;
+				background-color: rgb(255, 168, 85);
+				border-radius: 5px;
+				margin:5px;
+				padding:2px;
+				span{
+					color: #fff;
+				}
+			}
+			.tagfalse{
+				width: 1.625rem;
+				height: 0.50rem;
+				margin:5px;
+				padding:2px;
+			}
+			.price{
+				color:#ac2023;
+				font-weight: bold;
+				font-size: 14px;
+				margin:5px 0;
+			}
+			.tip{
+				color:#999;
+			}
+		}
+	}
+}
