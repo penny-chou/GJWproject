@@ -1,0 +1,34 @@
+#Container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    .notice {
+        width: 100%;
+        margin: 10px auto;
+        overflow: hidden;
+        line-height: 30px;
+        .ico {
+            line-height: 30px;
+            width: 85px;
+            float: left;
+            height: 30px;
+            border-right: 1px #ccc solid;
+            margin-right: 5px;
+            img{
+            	width: 80px;
+            	margin-top: 5px;
+            }
+        }
+        .notice-con {
+        	float: left;
+        	height: 30px;
+        	width: 70%;
+        	.my-carousel {
+        		.v-item {
+        	  		font-size: 14px;
+        	  	}
+        	}
+        }
+    }
+}

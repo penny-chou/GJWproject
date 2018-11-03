@@ -1,5 +1,75 @@
-#detail{
-	background: #ff0;
-	height: 300px;
+#detail {
+	
+	.am-tabs{
+		padding-top: 44px;
+		position: relative;
+		.am-tabs-tab-bar-wrap{
+			height: 44px;
+			top: 0;
+		   	left: 0;
+		    right: 0;
+		    z-index: 1;
+		    overflow: hidden;
+		    position: absolute;
+			.am-tabs-default-bar-tab{
+				-webkit-box-flex: 1;
+				-webkit-flex: 1;
+				flex: 1;
+				cursor: pointer;
+				padding: 0 5px;
+				font-size: 14px;
+				position: relative;
+				color: #333;
+				line-height: 44px;
+				text-align: center;
+				box-sizing: border-box;
+				background-color: #fff;
+				min-width: 0;
+			}
+		}
+		.am-tabs-content-wrap{
+			img{
+				width:100%
+			}
+			div{
+				min-height: 1500px
+			}
+		}
+	}
+}
 
+.attr {
+    width: 98%;
+    border-left: 1px solid #ebeef5;
+    border-top: 1px solid #ebeef5;
+    margin: 5px 1%;
+    font-size: 12px;
+    tbody{
+    	display: table-row-group;
+    	vertical-align: middle;
+    	border-color: inherit;
+		td{
+			border-right: 1px solid #ebeef5;
+			border-bottom: 1px solid #ebeef5;
+			line-height: 1.5;
+			padding: 5px;
+		}
+    }
+}
+
+.am-tabs-pane-wrap{
+	background: #fff
+}
+
+.am-tabs-default-bar-underline {
+  position: absolute;
+  border: none;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.am-tabs-default-bar-content{
+	div{
+		border-right:1px solid #ddd;
+	}
 }

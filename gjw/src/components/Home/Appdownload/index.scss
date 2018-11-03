@@ -1,0 +1,38 @@
+#Appdownload{
+	position: relative;
+	width: 100%;
+	.am-notice-bar{
+		height: 100%;
+		background: #ddd;
+		line-height: 100%;
+		position: relative;
+		.am-notice-bar-content{
+			margin: 0;
+			height: 100%;
+			.am-notice-bar-marquee{
+				width:100%
+			}
+		}
+	}
+	.am-notice-bar-operation{
+		margin: 0;
+		padding: 0;
+		display: block;
+		width: 10%;
+		position: absolute;
+		height: 100%;
+		z-index: 10;
+		.am-icon-md{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+			z-index: 10
+		}
+
+	}
+	img{
+		width:100%;
+		height:100%;
+	}
+}

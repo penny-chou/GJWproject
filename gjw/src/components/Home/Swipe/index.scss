@@ -1,0 +1,44 @@
+#Swipe {
+	.carousel{
+	img{
+		width:100%
+		}
+	}
+}
+
+#Swipe{
+	.slider{
+		.slider-decorator-0{
+			bottom:10px;
+		}
+	}
+}
+
+#Swipe{
+	position: relative;
+	.search_box{
+		position: absolute;
+		width: 80%;
+		left: 4%;
+		top: 5px;
+		z-index: 99;
+		background: #fff;
+		border-radius: 6px;
+		padding: 5px 5%;
+		height: 25px;
+		line-height: 25px;
+		.icon-sousuo{
+			position: relative;
+			display: inline-block;
+			padding-top: 5px;
+			color:#ccc;
+			span{
+				position: absolute;
+				top: -13px;
+				width: 120px;
+				font-size: 14px;
+				margin-left: 10px;
+			}
+		}
+	}
+}

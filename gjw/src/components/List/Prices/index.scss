@@ -1,0 +1,94 @@
+#prices{
+	background: #fff;
+	.container{
+		padding-right: 15px;
+	    padding-left: 15px;
+	    margin-right: auto;
+	    margin-left: auto;
+	    font-size:14px;
+	    .pro_list {
+	        padding: 3px 0;
+	        overflow: hidden;
+	        // padding-top: 90px;
+	        height: 100%;
+	        background: #f8f8f8;
+	        .col{
+	        	width:50%;
+	        	float: left;
+	        	box-sizing: border-box;
+	        	.pro_item {
+	        	    width: 94%;
+	        	    margin-left: 1%;
+	        	    /* height: 280px; */
+	        	    min-height: 280px;
+	        	    text-align: center;
+	        	    background-color: #fff;
+	        	    overflow: hidden;
+	        	    padding: 5px;
+	        	    margin-bottom: 1%;
+	        	    a {
+	        	        color: #999;
+	        	        width: 96%;
+	        	        display: block;
+	        	        margin: 0 auto;
+	        	        .pic {
+	        	            width: 99%;
+	        	            /* height: 150px; */
+	        	            margin: 0 auto;
+	        	        }
+	        	        .tit2 {
+	        	            overflow: hidden;
+	        	            text-overflow: ellipsis;
+	        	            color: #444;
+	        	            text-align: left;
+	        	            float: left;
+	        	            width: 100%;
+	        	            display: -webkit-box;
+	        	            -webkit-line-clamp: 2;
+	        	            line-height: 1.3;
+	        	            margin: 5px 0;
+	        	            height: 36px;
+	        	        }
+	        	        .tag {
+	        	            text-align: left;
+	        	            height: 22px;
+	        	            clear: both;
+	        	            span {
+	        	                border-radius: 5px;
+	        	                padding: 2px;
+	        	                font-size: 10px;
+	        	                color: #fff;
+	        	                margin: 0 5px;
+	        	                background: rgb(255,168,85);
+	        	            }
+	        	        }
+	        	        .tagfalse{
+	        	        	text-align: left;
+	        	        	height: 22px;
+	        	        	clear: both;
+	        	        }
+	        	        .price {
+	        	            text-align: left;
+	        	            color: #ac2023;
+	        	            margin-right: 8px;
+	        	            font-weight: 600;
+	        	        }
+	        	        .tip {
+	        	            line-height: 1.8;
+	        	            text-align: left;
+	        	            color: #999;
+	        	            float: left;
+	        	            font-size:12px;
+	        	            span{
+	        	            	margin-left: 43px;
+	        	            }
+	        	        }
+	        	    }
+	        	}
+	        	.pro_item:nth-child(odd) {
+	        	    margin-left: 0%;
+	        	}
+	        }
+	    }
+	}
+}

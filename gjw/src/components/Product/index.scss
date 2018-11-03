@@ -1,6 +1,5 @@
 #product{
 	position: relative;
-	
 	a{
 		color: #333;
 	}
@@ -26,7 +25,11 @@
 		}
 
 	#nav{
-		
+		position: fixed;
+		top:0;
+		.navbar{
+			
+		}
 		.am-tabs-default-bar-tab-active{
 			a{
 				color: #f44;
