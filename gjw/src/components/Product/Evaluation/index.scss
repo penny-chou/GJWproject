@@ -1,0 +1,89 @@
+#evaluation{
+	height: 500px;
+	width: 100%;
+	.taball{
+		// position: relative;
+		width: 100%;
+		.tab1{
+			width: 100%;
+			height: 100%;
+			margin-top: 1.56rem;
+			// position: absolute;
+			// top:50px;
+			li{
+				display: flex;
+				border-bottom: 1px solid #ccc;
+				padding: 10px;
+				.touxiang{
+					display: inline-block;
+					width:1.1rem;
+					margin-right: 10px;
+					margin-top: 10px;
+					img{
+						width:1.1rem;
+					}
+				}
+				.right{
+					display: inline-block; 
+					font-size: 14px;
+					color: #666;
+					p:nth-of-type(1){
+						margin-top:10px;
+						span{
+							margin-left: 20px;
+							background-color: #FF7F00;
+							border-radius: 5px;
+							font-size: 12px;
+							color: white;
+							padding:2px 3px;
+						}
+					}
+					p:nth-of-type(2){
+						margin:15px 0;
+						// display: flex;
+						// justify-content:space-between;
+						// position: relative;
+						img{
+							width:15px;
+							height: 15px;
+							display: inline-block;
+						}
+						span{
+							display: inline-block;
+							margin-left:1.25rem;
+							// position: absolute;
+							// left: 0;
+						}
+					}
+					p:nth-of-type(3){
+
+					}
+				}
+			}
+		}
+	}
+	.am-tabs{
+		position: relative;
+	}
+	.am-tabs-content-wrap{
+		position: absolute;
+		top:0;
+	}
+	.am-badge{
+		// padding:3px 5px;
+		display: inline-block;
+		border:1px solid #FC5E73;
+		border-radius: 5px;
+		font-size: 14px;
+		padding:2px 5px;
+		background-color: #FFEFEF;
+	}
+	.am-tabs-default-bar-tab-active{
+		background-color: white;
+		border-bottom: 0;
+	}
+	.am-badge::after{
+		height:0;
+	}
+	
+}
