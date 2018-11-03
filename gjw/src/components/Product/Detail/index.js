@@ -30,7 +30,6 @@ class Detail extends Component{
 	}
 
 	render(){
-<<<<<<< HEAD
 	const tabs = [
 	  { title: '商品介绍' },
 	  { title: '规格参数' },
@@ -63,10 +62,6 @@ class Detail extends Component{
 		       		<div>包装由购酒网专箱及胶带封箱</div>
 		      	</div>
     		</Tabs>
-=======
-		return <div id="detail">
-			Detail
->>>>>>> c469d2b144dcf6e981ec93cfcd239fb3479fc266
 		</div>
 	}
 }
