@@ -11,3 +11,9 @@
 /BtCApi/List/GetProListWhere?ParentID=1&brand=0&strWhere=0,0,0,0,0&sort=4&PageIndex=1&PageSize=20&userID=0
 // jiannanchun
 /BtCApi/List/GetProListWhere?ParentID=1&brand=14&strWhere=0,0,0,0,0&sort=0&PageIndex=1&PageSize=20&userID=0
+// 2
+/BtCApi/List/GetProListWhere?ParentID=2&brand=0&strWhere=0,0,0,0,0&sort=0&PageIndex=1&PageSize=20&userID=0
+// pingjia
+/BtCApi/List/GetProListWhere?ParentID=2&brand=0&strWhere=0,0,0,0,0&sort=1&PageIndex=1&PageSize=20&userID=0
+// 3
+/BtCApi/List/GetProListWhere?ParentID=4&brand=0&strWhere=0,0,0,0,0&sort=0&PageIndex=1&PageSize=20&userID=0

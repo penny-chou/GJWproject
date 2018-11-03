@@ -53,7 +53,11 @@ class Product extends Component{
 				</header>:null
 			}
 			<nav id="nav" className={'needFix'}>
+<<<<<<< HEAD
 			  	<div className="navbar">
+=======
+			  	<div>
+>>>>>>> c469d2b144dcf6e981ec93cfcd239fb3479fc266
 				    {/*<WhiteSpace />*/}
 				    <Tabs tabs={tabs} initialPage={0} animated={false}
 				     useOnPan={false} tabBarActiveTextColor={'#f44'}>
