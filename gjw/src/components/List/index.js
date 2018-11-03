@@ -3,7 +3,7 @@ import './index.scss';
 class List extends Component{
 	render(){
 		return <div>
-			List
+			{this.props.children}
 		</div>
 	}
 }

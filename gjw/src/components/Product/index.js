@@ -3,7 +3,9 @@ import './index.scss';
 class Product extends Component{
 	render(){
 		return <div>
-			Product
+			{
+				this.props.children
+			}
 		</div>
 	}
 }

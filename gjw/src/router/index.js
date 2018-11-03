@@ -28,7 +28,7 @@ const router = (
 						<List>
 							<Switch>
 								<Route path="/list/comprehensive" component={Comprehensive}/>
-								<Route path="/list/sales" component={Detail}/>
+								<Route path="/list/sales" component={Sales}/>
 								<Route path="/list/prices" component={Prices}/>
 								<Redirect from="/list" to="/list/comprehensive"/>
 							</Switch>
@@ -38,7 +38,7 @@ const router = (
 						<Product>
 							<Switch>
 								<Route path="/product/goods" component={Goods}/>
-								<Route path="/product/sales" component={Sales}/>
+								<Route path="/product/detail" component={Detail}/>
 								<Route path="/product/evaluation" component={Evaluation}/>
 								<Redirect from="/product" to="/product/goods"/>
 							</Switch>

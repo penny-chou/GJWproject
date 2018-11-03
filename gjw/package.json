@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "amfe-flexible": "^2.2.1",
+    "antd-mobile": "^2.2.6",
     "axios": "^0.18.0",
     "node-sass": "^4.9.4",
     "react": "^16.6.0",
